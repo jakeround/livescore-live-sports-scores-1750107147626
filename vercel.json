@@ -1,5 +1,9 @@
 {
   "version": 2,
+  "buildCommand": "echo 'Static website - no build required'",
+  "outputDirectory": ".",
+  "installCommand": "echo 'No install needed'",
+  "devCommand": "echo 'No dev command needed'",
   "routes": [
     {
       "handle": "filesystem"
